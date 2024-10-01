@@ -130,7 +130,7 @@ def home(request):
         else:
             print("Error fetching product data.")
 
-        genai.configure(api_key = "AIzaSyBxEZkHQMAl0TY6eDknt4j6YcGgA-j5J24")
+        genai.configure(api_key = "GEMINI_API_KEY")
 
         generation_config = {
             "temperature": 1,
